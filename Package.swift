@@ -20,8 +20,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "GoogleCast",
-            url: "https://github.com/sonnykr/googlecast-spm/raw/main/GoogleCast.xcframework.zip",
-            checksum: "40929e13a46f31665f8b4569153b4c2f14c45b61d30889a818cd734a0c03dc31"
+            path: "GoogleCast.xcframework"
         )
     ]
 )
